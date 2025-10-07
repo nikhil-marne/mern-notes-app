@@ -22,7 +22,7 @@ const createNote = () => {
       try{
         await axiosInstance.post("/notes", {
           title: title,
-          content, content
+          content: content
         })
         toast.success("Note created successfully !")
         navigate("/")
