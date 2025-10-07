@@ -1,0 +1,20 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Simple MERN Stack Notes App 📝 A full-stack, responsive notes application built with React (Tailwind CSS/DaisyUI) and a Node/Express API. Features complete CRUD functionality for managing notes (title/content). API security enhanced with Redis for rate limiting and Mongoose for MongoDB data modeling.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhil-marne/mern-notes-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhil-marne/mern-notes-app/issues"
+  },
+  "homepage": "https://github.com/nikhil-marne/mern-notes-app#readme"
+}
